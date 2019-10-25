@@ -1,0 +1,128 @@
+.btn-primary {
+    background: #444;
+    border: 1px solid #444;
+}
+
+input[type="submit"].btn-primary:active {
+    background: #609875;
+    border: 1px solid #609875;
+	color: #fff !important;
+}
+input[type="submit"].btn-primary:focus {
+    background: #609875;
+    border: 1px solid #609875;
+    outline: 0;
+	color: #fff !important;
+}
+input[type="submit"][disabled].btn-primary {
+	background: #609875;
+    border: 1px solid #609875;
+	color: #fff !important;
+}
+.navbar-default .navbar-nav > li > a.active, .navbar-default .navbar-nav > li:hover > a {
+	background: #609875;
+    color: #fff;
+}
+
+.navbar-default .navbar-nav .dropdown {
+    border-top: 2px solid #609875;
+}
+
+.dropdown li a.active, .sup-dropdown li a.active {
+    background: #609875;
+    color: #fff;
+}
+
+.dropdown > li:hover > a, .sup-dropdown li:hover > a {
+    background: #609875;
+    color: #fff;
+}
+
+
+.home-about-us a {
+    color: #609875;
+}
+
+.main-slider .carousel-caption h1 {
+    background: rgba(96,152,117,0.7);
+}
+
+.main-slider .carousel-caption p {
+    background: rgba(96,152,117,0.7);
+}
+
+.project .project-details {
+    background-color: #609875;
+}
+
+.effect-duke {
+	background: rgba(96,152,117,0.7);
+}
+
+.overlay {
+    background-color: rgba(51,51,51,0.7);
+}
+
+.footer-link li:hover a {
+    color: #609875;
+}
+
+.footer-social li a {
+    background: #609875;
+	border: 1px solid #609875;
+}
+
+.footer-social .btn-default {
+    background: #609875;
+    border-color: #609875;
+}
+
+.copyright-section a {
+    color: #609875;
+}
+
+.team-section .nav-tabs.nav-justified {
+    background: #609875;
+}
+
+.team-member .team-details {
+    background-color: rgba(96,152,117,0.7);
+}
+
+.page-title-overlay {
+    background: rgba(96,152,117,0.7);
+}
+
+.progress-bar {
+    background: #609875;
+}
+
+.panel-default > .panel-heading {
+	background-color: #609875;
+}
+
+.sidebar .tagcloud a:hover {
+    background: #609875
+}
+
+.widget-search .search-btn {
+	background-color: #609875;
+}
+
+
+.plan-name {
+	background: #609875;
+}
+
+.plan-signup {
+	background: #fff;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+}
+
+.dot1, .dot2 {
+    background-color: #609875;
+}
