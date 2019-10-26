@@ -27,9 +27,9 @@ $(function () {
         },
         submitHandler: function (form) {
             $(form).ajaxSubmit({
+                data: { phone: $('#phone').val(), name: $('#name').val(), message: $('#message').val(), email: $('#e-mail').val() },
                 type: "POST",
                 dataType: "json",
-                data: $(form).serialize(),
                 url: "https://usebasin.com/f/bb655c002947.json",
                 success: function () {
                     $('#cform :input').attr('disabled', 'disabled');
