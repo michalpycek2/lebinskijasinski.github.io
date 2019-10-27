@@ -9,7 +9,7 @@ $(function () {
                 required: true,
                 email: true
             },
-            comments: {
+            message: {
                 required: true
             }
         },
@@ -21,13 +21,13 @@ $(function () {
                 required: "To pole jest wymagane.",
                 email: "Podaj prawdziwy adres e-mail."
             },
-            comments: {
+            message: {
                 required: "To pole jest wymagane."
             }
         },
         submitHandler: function (form) {
             $(form).ajaxSubmit({
-                data: { phone: $('#phone').val(), name: $('#name').val(), message: $('#message').val(), email: $('#e-mail').val() },
+                data: { phone: $('#phone').val(), name: $('#name').val(), message: $('#message').val(), email: $('#email').val() },
                 type: "POST",
                 dataType: "json",
                 url: "https://usebasin.com/f/bb655c002947.json",
