@@ -270,29 +270,6 @@ $(document).ready(function($) {
 });
 
 
-
-/*----------------------------------------------------*/
-/*	Nice-Scroll
-/*----------------------------------------------------*/
-$(document).ready(function($) {
-	"use strict";
-
-	$("html").niceScroll({
-		scrollspeed: 100,
-		mousescrollstep: 38,
-		cursorwidth: 5,
-		cursorborder: 0,
-		cursorcolor: '#333',
-		autohidemode: false,
-		zindex: 999999999,
-		horizrailenabled: false,
-		cursorborderradius: 0,
-	});
-
-});
-
-
-
 /*----------------------------------------*/
 /*  Bootstrap Carousel                    */
 /*----------------------------------------*/
